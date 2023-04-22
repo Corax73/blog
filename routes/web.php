@@ -18,4 +18,5 @@ Route::controller(PostController::class)
 -> group(function () {
     Route::get('/', 'index') -> name('index');
     Route::get('/add', 'addPost') -> name('addPost');
+    Route::post('/add', 'createPost') -> name('createPost');
 });
