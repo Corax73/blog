@@ -9,12 +9,12 @@
 <meta name="description" content="Clean Blog Template is provided by templatemo.com" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="/templatemo_style.css" rel="stylesheet" type="text/css" />
 
-<link href="s3slider.css" rel="stylesheet" type="text/css" />
+<link href="/s3slider.css" rel="stylesheet" type="text/css" />
 <!-- JavaScripts-->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/s3Slider.js"></script>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/s3Slider.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $('#slider').s3Slider({
@@ -94,19 +94,19 @@
             <div id="slider">
                 <ul id="sliderContent">
                     <li class="sliderImage">
-                        <a href=""><img src="images/slider/1.jpg" alt="1" /></a>
+                        <a href=""><img src="/images/slider/1.jpg" alt="1" /></a>
                         <span class="top"><strong>Project 1</strong><br />Suspendisse turpis arcu, dignissim ac laoreet a, condimentum in massa.</span>
                     </li>
                     <li class="sliderImage">
-                        <a href=""><img src="images/slider/2.jpg" alt="2" /></a>
+                        <a href=""><img src="/images/slider/2.jpg" alt="2" /></a>
                         <span class="bottom"><strong>Project 2</strong><br />uisque eget elit quis augue pharetra feugiat.</span>
                     </li>
                     <li class="sliderImage">
-                        <img src="images/slider/3.jpg" alt="3" />
+                        <img src="/images/slider/3.jpg" alt="3" />
                         <span class="left"><strong>Project 3</strong><br />Sed et quam vitae ipsum vulputate varius vitae semper nunc.</span>
                     </li>
                     <li class="sliderImage">
-                        <img src="images/slider/4.jpg" alt="4" />
+                        <img src="/images/slider/4.jpg" alt="4" />
                         <span class="right"><strong>Project 4</strong><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
                     </li>
                     <li class="clear sliderImage"></li>

@@ -33,7 +33,21 @@ class PostController extends Controller
         ]);
 
         $post = new Post($validatedData);
-        $post -> saveOrFail();        
+        $post -> saveOrFail();
+
+        return redirect() -> route('showPost', ['id' => $post -> id]);
+        
+    }
+
+    public function showPost($id)
+    {
+
+        $post = Post::find($id);
+
+        return view('layouts.post',
+        [
+            'post' => $post
+        ]);    
 
     }
 }

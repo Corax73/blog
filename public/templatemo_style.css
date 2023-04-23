@@ -2,6 +2,10 @@
 Credit: http://www.templatemo.com
 */
 
+.post{
+	word-break: break-all;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;

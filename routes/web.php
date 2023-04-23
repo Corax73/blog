@@ -19,4 +19,5 @@ Route::controller(PostController::class)
     Route::get('/', 'index') -> name('index');
     Route::get('/add', 'addPost') -> name('addPost');
     Route::post('/add', 'createPost') -> name('createPost');
+    Route::get('/post/{id}', 'showPost') -> name('showPost');
 });
