@@ -8,14 +8,25 @@ use App\Models\Post;
 
 class PostController extends Controller
 {
+    /**
+     * Display a listing of the posts.
+     * @return view
+     */
     public function index()
     {
 
+        $posts = Post::all() -> sortByDesc('updated_at');
+        
         return view('layouts.postsection', [
-            
+            'posts' => $posts
         ]);
+
     }
 
+    /**
+     * Show the form for creating a new post.
+     * @return view
+     */
     public function addPost()
     {
 
@@ -23,6 +34,11 @@ class PostController extends Controller
 
     }
 
+    /**
+     * Store a newly created post in storage.
+     * @param  \Illuminate\Http\Request  $request
+     * @return redirect
+     */
     public function createPost(Request $request)
     {
 
@@ -39,14 +55,20 @@ class PostController extends Controller
         
     }
 
-    public function showPost($id)
+    /**
+     * Display the specified post.
+     * @param int $id
+     */
+    public function showPost(int $id)
     {
 
         $post = Post::find($id);
+        $comments = $post -> comments -> sortByDesc('created_at');
 
         return view('layouts.post',
         [
-            'post' => $post
+            'post' => $post,
+            'comments' => $comments
         ]);    
 
     }

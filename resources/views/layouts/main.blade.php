@@ -31,7 +31,7 @@
 	<div id="templatemo_menu">
                 
         <ul>
-            <li><a href="index.html" class="current">Blog</a></li>
+            <li><a href="/" class="current">Blog</a></li>
             <li><a href="{{ route('addPost') }}" class="current">Add post</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="about.html">About Us</a></li>
@@ -45,7 +45,7 @@
         <div id="templatemo_header">
         
             <div id="site_title">
-                <h1><a href="http://www.templatemo.com" target="_parent">Clean <strong>Blog</strong><span>Free HTML-CSS Template</span></a></h1>
+                <h1><a href="/" target="_parent">Clean <strong>Blog</strong><span>Free HTML-CSS Template</span></a></h1>
             </div><!-- end of site_title -->
             
         </div> <!-- end of header -->  

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\CommentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +21,9 @@ Route::controller(PostController::class)
     Route::get('/add', 'addPost') -> name('addPost');
     Route::post('/add', 'createPost') -> name('createPost');
     Route::get('/post/{id}', 'showPost') -> name('showPost');
+});
+
+Route::controller(CommentController::class)
+-> group(function () {
+    Route::post('/post/{id}', 'createComment') -> name('createComment');
 });
