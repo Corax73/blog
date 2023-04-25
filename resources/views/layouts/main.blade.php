@@ -60,10 +60,10 @@
             
             <h4>Categories</h4>
             <ul class="templatemo_list">
-                <li><a href="http://www.templatemo.com/page/1" target="_parent">Curabitur sed</a></li>
-                <li><a href="http://www.templatemo.com/page/2" target="_parent">Praesent adipiscing</a></li>
-                <li><a href="http://www.templatemo.com/page/3" target="_parent">Duis sed justo</a></li>
-                <li><a href="http://www.templatemo.com/page/4" target="_parent">Mauris vulputate</a></li>
+                <li><a href="/" target="_parent">Curabitur sed</a></li>
+                <li><a href="/" target="_parent">Praesent adipiscing</a></li>
+                <li><a href="/" target="_parent">Duis sed justo</a></li>
+                <li><a href="/" target="_parent">Mauris vulputate</a></li>
                 <li><a href="#">Nam auctor</a></li>
                 <li><a href="#">Aliquam quam</a></li>
             </ul>
@@ -72,11 +72,11 @@
             
             <h4>Friends</h4>
             <ul class="templatemo_list">
-                <li><a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a></li>
-                <li><a href="http://www.flashmo.com" target="_parent">Flash Templates</a></li>
-                <li><a href="http://www.flashmo.com/store" target="_parent">Premium Themes</a></li>
-                <li><a href="http://www.webdesignmo.com/blog" target="_parent">Web Design Blog</a></li>
-                <li><a href="http://www.koflash.com" target="_parent">Flash Web Gallery</a></li>
+                <li><a href="/" target="_parent">Free CSS Templates</a></li>
+                <li><a href="/" target="_parent">Flash Templates</a></li>
+                <li><a href="/" target="_parent">Premium Themes</a></li>
+                <li><a href="/" target="_parent">Web Design Blog</a></li>
+                <li><a href="/" target="_parent">Flash Web Gallery</a></li>
                 <li><a href="#">Curabitur sed lacinia</a></li>
                 <li><a href="#">Vestibulum laoreet tincidunt</a></li>
                 <li><a href="#">Nullam nec mi enim</a></li>
@@ -128,7 +128,7 @@
   	<div id="templatemo_footer">
     
 		Copyright © 2048 <a href="#">Your Company Name</a> | 
-        <a href="http://www.iwebsitetemplate.com" target="_parent">Website Templates</a> by <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
+        <a href="/" target="_parent">Website Templates</a> by <a href="/" target="_parent">Free CSS Templates</a>
         
     </div>
   

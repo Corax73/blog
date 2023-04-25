@@ -15,7 +15,7 @@ class PostController extends Controller
     public function index()
     {
 
-        $posts = Post::all() -> sortByDesc('updated_at');
+        $posts = Post::with('comments') -> get() -> sortByDesc('updated_at');
         
         return view('layouts.postsection', [
             'posts' => $posts
