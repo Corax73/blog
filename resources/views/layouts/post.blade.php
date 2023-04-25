@@ -48,11 +48,17 @@
            					<br />
                             <input type="text" name="author" />
                         </div>
+                        @if ($errors->has('author'))
+                        <span class="text-danger">{{ $errors->first('author') }}</span>
+                        @endif
                         <div class="form_row">
                             <label><strong>Comment</strong></label>
            					<br />
                             <textarea  name="description" rows="" cols=""></textarea>
                         </div>
+                        @if ($errors->has('description'))
+                        <span class="text-danger">{{ $errors->first('description') }}</span>
+                        @endif
                         <input type="submit" name="Submit" value="Submit" class="submit_btn" />
                     </form>
                     
