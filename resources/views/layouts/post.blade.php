@@ -26,7 +26,7 @@
                                 <div class="comment_text">
                                     <div class="comment_author">{{ $comment -> author }}</div>
                                     <p>{{ $comment -> created_at }}</p>
-                                    <p>{{ $comment -> description }}</p>
+                                    <p class="post">{{ $comment -> description }}</p>
                                 </div>
                                 
                                 <div class="cleaner"></div>

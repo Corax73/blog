@@ -21,7 +21,7 @@ class CommentController extends Controller
             'description' => 'required|min:20'
         ]);
 
-        $validatedData['post_id'] = $request -> id;
+        $validatedData['post_id'] = (integer)$request -> id;
         $comment = new Comment($validatedData);
         $comment -> saveOrFail();
 
